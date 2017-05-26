@@ -1,0 +1,15 @@
+package EJEMPLOS;
+
+public class excepcion4 {
+public static void main(String arg[]){
+	try
+	{
+		MiPropioError e = new  MiPropioError("mi propio error");
+		throw e;
+	}
+	catch(Exception excepcion){
+		excepcion.printStackTrace();
+	}
+
+}
+}
